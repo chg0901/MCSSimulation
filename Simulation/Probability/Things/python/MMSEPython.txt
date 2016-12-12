@@ -1,0 +1,4 @@
+mse = ((A - B) ** 2).mean(axis=ax)
+with ax=0 the average is performed along the row, for each column, returning an array
+with ax=1 the average is performed along the column, for each row, returning an array
+with ax=None the average is performed element-wise along the array, returning a single value
